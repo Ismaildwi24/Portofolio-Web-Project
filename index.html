@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ismail Dwi - Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Notion style typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header & Navigasi -->
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo">Ismail Dwi</a>
+
+            <div class="header-right">
+                <nav class="navbar">
+                    <ul class="nav-menu">
+                        <li><a href="#beranda" class="nav-link" data-i18n="nav_home">Beranda</a></li>
+                        <li><a href="#tentang" class="nav-link" data-i18n="nav_about">Tentang</a></li>
+                        <li><a href="#keahlian" class="nav-link" data-i18n="nav_skills">Keahlian</a></li>
+                        <li><a href="#sertifikat" class="nav-link" data-i18n="nav_cert">Sertifikat</a></li>
+                        <li><a href="#proyek" class="nav-link" data-i18n="nav_proj">Proyek</a></li>
+                        <li><a href="#kontak" class="nav-link" data-i18n="nav_contact">Kontak</a></li>
+                    </ul>
+                </nav>
+
+                <button id="lang-toggle" class="icon-btn" aria-label="Toggle Language" style="font-weight: 600; font-size: 0.9rem; width: 32px;">ID</button>
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle Dark Mode">
+                    <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" style="display: none;">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <!-- Bagian Beranda (Hero Section) -->
+        <section id="beranda" class="hero">
+            <div class="hero-cover">
+                <img src="assets/cover.jpg" alt="Cover Image" class="cover-img">
+            </div>
+            
+            <div class="hero-content-wrapper">
+                <div class="profile-pic-container">
+                    <img src="assets/profile.jpg" alt="Ismail Dwi" class="profile-img">
+                </div>
+                
+                <h1 class="page-title" data-i18n="hero_title">Ismail Dwi</h1>
+                <div class="badge" data-i18n="hero_badge">Data Enthusiast & Python Learner</div>
+
+            <p class="page-description" data-i18n="hero_desc">
+                Selamat datang di halaman portofolio saya. Saat ini saya telah menguasai dasar-dasar pemrograman
+                <strong>Python</strong> dan sedang memfokuskan diri untuk mendalami bidang <strong>Data
+                    Analysis</strong>, <strong>Data Visualisation</strong>, serta <strong>Business Analytics</strong>.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#proyek" class="btn btn-primary" data-i18n="hero_btn_proj">Lihat Proyek</a>
+                <a href="#kontak" class="btn btn-secondary" data-i18n="hero_btn_contact">Hubungi Saya</a>
+            </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Bagian Tentang -->
+        <section id="tentang" class="about">
+            <h2 class="section-title" data-i18n="about_title">Tentang Saya</h2>
+            <p data-i18n="about_p1">
+                Saya memiliki ketertarikan yang besar terhadap dunia data. Berawal dari rasa penasaran tentang bagaimana
+                data dapat diolah menjadi insight strategis untuk bisnis, saya mulai membangun fondasi analitik
+                menggunakan Python. Melalui portofolio ini, saya mendokumentasikan perjalanan eksplorasi saya sekaligus
+                membagikan berbagai proyek analisis dan visualisasi data yang sedang saya kembangkan. Saya percaya,
+                analisis yang tajam baru akan benar-benar berdampak jika dikomunikasikan dengan jernih.
+            </p>
+            <p data-i18n="about_p2">
+                Melalui portofolio ini, saya ingin mendokumentasikan perjalanan belajar saya serta memamerkan beberapa
+                proyek analisis dan visualisasi data yang sedang dan akan saya kerjakan. Saya percaya bahwa komunikasi
+                yang jelas melalui data sama pentingnya dengan analisis itu sendiri.
+            </p>
+        </section>
+
+        <!-- Bagian Keahlian -->
+        <section id="keahlian" class="skills">
+            <h2 class="section-title" data-i18n="skills_title">Fokus & Keahlian</h2>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <span class="skill-icon">🐍</span>
+                    <div class="skill-details">
+                        <h3>Python Programming</h3>
+                        <p data-i18n="skill_python">Pemrograman dasar, manipulasi struktur data, dan automasi proses sederhana.</p>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">📊</span>
+                    <div class="skill-details">
+                        <h3>Data Analysis</h3>
+                        <p data-i18n="skill_analysis">Eksplorasi data, pembersihan data (Data Cleaning), dan ekstraksi informasi penting.</p>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">📈</span>
+                    <div class="skill-details">
+                        <h3>Data Visualisation</h3>
+                        <p data-i18n="skill_viz">Menyajikan data menjadi grafik dan visualisasi informatif yang mudah dipahami.</p>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">💼</span>
+                    <div class="skill-details">
+                        <h3>Business Analytics</h3>
+                        <p data-i18n="skill_biz">Menerapkan temuan data ke dalam konteks dan penyelesaian masalah bisnis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Lisensi & Sertifikat (Galeri) -->
+        <section id="sertifikat" class="certificates">
+            <h2 class="section-title" data-i18n="cert_title">Lisensi & Sertifikat</h2>
+            <p class="section-subtitle" data-i18n="cert_sub">Kumpulan sertifikat kompetensi dan pelatihan yang telah diselesaikan.</p>
+
+            <div class="gallery-marquee">
+                <div class="gallery-track">
+                    <!-- Original 8 Cards -->
+                    <article class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/Python.jpg" alt="Sertifikat Python Basic" class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Python for Beginners</h3>
+                            <p><span data-i18n="provider">Penyedia:</span> Edukasi A</p>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/Data Analysis.jpg" alt="Sertifikat Data Analysis" class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Data Analysis Fundamentals</h3>
+                            <p><span data-i18n="provider">Penyedia:</span> Edukasi B</p>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/Data Visualisation.jpg" alt="Sertifikat Data Visualisation"
+                                class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Intro to Data Visualisation</h3>
+                            <p><span data-i18n="provider">Penyedia:</span> Edukasi C</p>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/Business Analytics.jpg" alt="Sertifikat Business Analytics"
+                                class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Business Analytics Pro</h3>
+                            <p><span data-i18n="provider">Penyedia:</span> Edukasi D</p>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/SQL.jpg" alt="Sertifikat SQL" class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>SQL for Data Science</h3>
+                            <p><span data-i18n="provider">Penyedia:</span> Edukasi A</p>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/Machine Learning.jpg" alt="Sertifikat Machine Learning"
+                                class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Machine Learning Basics</h3>
+                            <p><span data-i18n="provider">Penyedia:</span> Edukasi B</p>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/Pandas.jpg" alt="Sertifikat Pandas" class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Advanced Pandas</h3>
+                            <p><span data-i18n="provider">Penyedia:</span> Edukasi E</p>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/Tableau.jpg" alt="Sertifikat Tableau" class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Tableau Fundamentals</h3>
+                            <p><span data-i18n="provider">Penyedia:</span> Edukasi C</p>
+                        </div>
+                    </article>
+
+                    <!-- Duplicated 8 Cards for seamless scroll -->
+                    <article class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/Python.jpg" alt="Sertifikat Python Basic" class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Python for Beginners</h3>
+                            <p><span data-i18n="provider">Penyedia:</span> Edukasi A</p>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/Data Analysis.jpg" alt="Sertifikat Data Analysis" class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Data Analysis Fundamentals</h3>
+                            <p><span data-i18n="provider">Penyedia:</span> Edukasi B</p>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/Data Visualisation.jpg" alt="Sertifikat Data Visualisation"
+                                class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Intro to Data Visualisation</h3>
+                            <p><span data-i18n="provider">Penyedia:</span> Edukasi C</p>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/Business Analytics.jpg" alt="Sertifikat Business Analytics"
+                                class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Business Analytics Pro</h3>
+                            <p><span data-i18n="provider">Penyedia:</span> Edukasi D</p>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/SQL.jpg" alt="Sertifikat SQL" class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>SQL for Data Science</h3>
+                            <p><span data-i18n="provider">Penyedia:</span> Edukasi A</p>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/Machine Learning.jpg" alt="Sertifikat Machine Learning"
+                                class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Machine Learning Basics</h3>
+                            <p><span data-i18n="provider">Penyedia:</span> Edukasi B</p>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/Pandas.jpg" alt="Sertifikat Pandas" class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Advanced Pandas</h3>
+                            <p><span data-i18n="provider">Penyedia:</span> Edukasi E</p>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/Tableau.jpg" alt="Sertifikat Tableau" class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Tableau Fundamentals</h3>
+                            <p><span data-i18n="provider">Penyedia:</span> Edukasi C</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Proyek -->
+        <section id="proyek" class="projects">
+            <h2 class="section-title" data-i18n="proj_title">Proyek Data</h2>
+            <div class="project-marquee">
+                <div class="project-track">
+                    <!-- Original 8 Cards -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3 data-i18n="proj_1">Analisis Penjualan E-Commerce</h3>
+                            <p>Coming Soon.</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Pandas</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3 data-i18n="proj_2">Dashboard KPI Bisnis</h3>
+                            <p>Coming Soon.</p>
+                            <div class="project-tags">
+                                <span class="tag">Tableau</span>
+                                <span class="tag">Data Visualisation</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3 data-i18n="proj_3">Prediksi Harga Properti</h3>
+                            <p>Coming Soon.</p>
+                            <div class="project-tags">
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Scikit-Learn</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3 data-i18n="proj_4">Analisis Sentimen Ulasan</h3>
+                            <p>Coming Soon.</p>
+                            <div class="project-tags">
+                                <span class="tag">NLP</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3 data-i18n="proj_5">Pembersihan Data Otomatis</h3>
+                            <p>Coming Soon.</p>
+                            <div class="project-tags">
+                                <span class="tag">Data Cleaning</span>
+                                <span class="tag">Pandas</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3 data-i18n="proj_6">Analisis Churn Pelanggan</h3>
+                            <p>Coming Soon.</p>
+                            <div class="project-tags">
+                                <span class="tag">Business Analytics</span>
+                                <span class="tag">SQL</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3 data-i18n="proj_7">Web Scraping Tiket</h3>
+                            <p>Coming Soon.</p>
+                            <div class="project-tags">
+                                <span class="tag">BeautifulSoup</span>
+                                <span class="tag">Web Scraping</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3 data-i18n="proj_8">Rekomendasi Film</h3>
+                            <p>Coming Soon.</p>
+                            <div class="project-tags">
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Duplicated 8 Cards for seamless scroll -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3 data-i18n="proj_1">Analisis Penjualan E-Commerce</h3>
+                            <p>Coming Soon.</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Pandas</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3 data-i18n="proj_2">Dashboard KPI Bisnis</h3>
+                            <p>Coming Soon.</p>
+                            <div class="project-tags">
+                                <span class="tag">Tableau</span>
+                                <span class="tag">Data Visualisation</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3 data-i18n="proj_3">Prediksi Harga Properti</h3>
+                            <p>Coming Soon.</p>
+                            <div class="project-tags">
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Scikit-Learn</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3 data-i18n="proj_4">Analisis Sentimen Ulasan</h3>
+                            <p>Coming Soon.</p>
+                            <div class="project-tags">
+                                <span class="tag">NLP</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3 data-i18n="proj_5">Pembersihan Data Otomatis</h3>
+                            <p>Coming Soon.</p>
+                            <div class="project-tags">
+                                <span class="tag">Data Cleaning</span>
+                                <span class="tag">Pandas</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3 data-i18n="proj_6">Analisis Churn Pelanggan</h3>
+                            <p>Coming Soon.</p>
+                            <div class="project-tags">
+                                <span class="tag">Business Analytics</span>
+                                <span class="tag">SQL</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3 data-i18n="proj_7">Web Scraping Tiket</h3>
+                            <p>Coming Soon.</p>
+                            <div class="project-tags">
+                                <span class="tag">BeautifulSoup</span>
+                                <span class="tag">Web Scraping</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3 data-i18n="proj_8">Rekomendasi Film</h3>
+                            <p>Coming Soon.</p>
+                            <div class="project-tags">
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Bagian Kontak -->
+        <section id="kontak" class="contact">
+            <h2 class="section-title" data-i18n="contact_title">Mari Terhubung</h2>
+            <p data-i18n="contact_desc">Jika Anda memiliki pertanyaan atau peluang kolaborasi, jangan ragu untuk menghubungi saya.</p>
+
+            <form action="#" class="notion-form">
+                <div class="form-group">
+                    <label for="name" data-i18n="contact_name">Nama</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message" data-i18n="contact_msg">Pesan</label>
+                    <textarea id="message" name="message" rows="4" required
+                        placeholder="Tuliskan pesan Anda..." data-i18n-placeholder="contact_msg_placeholder"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" data-i18n="contact_send">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="page-content">
+            <p data-i18n="footer">&copy; 2026 Ismail Dwi. Dibuat dengan gaya minimalis.</p>
+        </div>
+    </footer>
+
+    <!-- Script interaksi -->
+    <script>
+        // Hamburger Menu Logic
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }));
+
+        
+        // Translations Dictionary
+        const translations = {
+            id: {
+                nav_home: "Beranda",
+                nav_about: "Tentang",
+                nav_skills: "Keahlian",
+                nav_cert: "Sertifikat",
+                nav_proj: "Proyek",
+                nav_contact: "Kontak",
+                hero_title: "Ismail Dwi",
+                hero_badge: "Data Enthusiast & Python Learner",
+                hero_desc: "Selamat datang di halaman portofolio saya. Saat ini saya telah menguasai dasar-dasar pemrograman <strong>Python</strong> dan sedang memfokuskan diri untuk mendalami bidang <strong>Data Analysis</strong>, <strong>Data Visualisation</strong>, serta <strong>Business Analytics</strong>.",
+                hero_btn_proj: "Lihat Proyek",
+                hero_btn_contact: "Hubungi Saya",
+                about_title: "Tentang Saya",
+                about_p1: "Saya memiliki ketertarikan yang besar terhadap dunia data. Berawal dari rasa penasaran tentang bagaimana data dapat diolah menjadi insight strategis untuk bisnis, saya mulai membangun fondasi analitik menggunakan Python. Melalui portofolio ini, saya mendokumentasikan perjalanan eksplorasi saya sekaligus membagikan berbagai proyek analisis dan visualisasi data yang sedang saya kembangkan. Saya percaya, analisis yang tajam baru akan benar-benar berdampak jika dikomunikasikan dengan jernih.",
+                about_p2: "Melalui portofolio ini, saya ingin mendokumentasikan perjalanan belajar saya serta memamerkan beberapa proyek analisis dan visualisasi data yang sedang dan akan saya kerjakan. Saya percaya bahwa komunikasi yang jelas melalui data sama pentingnya dengan analisis itu sendiri.",
+                skills_title: "Fokus & Keahlian",
+                skill_python: "Pemrograman dasar, manipulasi struktur data, dan automasi proses sederhana.",
+                skill_analysis: "Eksplorasi data, pembersihan data (Data Cleaning), dan ekstraksi informasi penting.",
+                skill_viz: "Menyajikan data menjadi grafik dan visualisasi informatif yang mudah dipahami.",
+                skill_biz: "Menerapkan temuan data ke dalam konteks dan penyelesaian masalah bisnis.",
+                cert_title: "Lisensi & Sertifikat",
+                cert_sub: "Kumpulan sertifikat kompetensi dan pelatihan yang telah diselesaikan.",
+                provider: "Penyedia:",
+                proj_title: "Proyek Data",
+                proj_1: "Analisis Penjualan E-Commerce",
+                proj_2: "Dashboard KPI Bisnis",
+                proj_3: "Prediksi Harga Properti",
+                proj_4: "Analisis Sentimen Ulasan",
+                proj_5: "Pembersihan Data Otomatis",
+                proj_6: "Analisis Churn Pelanggan",
+                proj_7: "Web Scraping Tiket",
+                proj_8: "Rekomendasi Film",
+                contact_title: "Mari Terhubung",
+                contact_desc: "Jika Anda memiliki pertanyaan atau peluang kolaborasi, jangan ragu untuk menghubungi saya.",
+                contact_name: "Nama",
+                contact_msg: "Pesan",
+                contact_msg_placeholder: "Tuliskan pesan Anda...",
+                contact_send: "Kirim Pesan",
+                footer: "&copy; 2026 Ismail Dwi. Dibuat dengan gaya minimalis."
+            },
+            en: {
+                nav_home: "Home",
+                nav_about: "About",
+                nav_skills: "Skills",
+                nav_cert: "Certificates",
+                nav_proj: "Projects",
+                nav_contact: "Contact",
+                hero_title: "Ismail Dwi",
+                hero_badge: "Data Enthusiast & Python Learner",
+                hero_desc: "Welcome to my portfolio. I have mastered the basics of <strong>Python</strong> programming and am currently focusing on deepening my knowledge in <strong>Data Analysis</strong>, <strong>Data Visualisation</strong>, and <strong>Business Analytics</strong>.",
+                hero_btn_proj: "View Projects",
+                hero_btn_contact: "Contact Me",
+                about_title: "About Me",
+                about_p1: "I have a huge interest in the world of data. Starting from curiosity about how data can be processed into strategic insights for business, I began building an analytical foundation using Python. Through this portfolio, I document my exploratory journey and share various data analysis and visualization projects that I am developing. I believe sharp analysis will only truly make an impact if communicated clearly.",
+                about_p2: "Through this portfolio, I want to document my learning journey and showcase several data analysis and visualization projects that I am currently working on and will work on. I believe that clear communication through data is just as important as the analysis itself.",
+                skills_title: "Focus & Skills",
+                skill_python: "Basic programming, data structure manipulation, and simple process automation.",
+                skill_analysis: "Data exploration, data cleaning, and extraction of important information.",
+                skill_viz: "Presenting data into informative and easily understandable charts and visualizations.",
+                skill_biz: "Applying data findings into business context and problem-solving.",
+                cert_title: "Licenses & Certificates",
+                cert_sub: "A collection of completed competency and training certificates.",
+                provider: "Provider:",
+                proj_title: "Data Projects",
+                proj_1: "E-Commerce Sales Analysis",
+                proj_2: "Business KPI Dashboard",
+                proj_3: "Property Price Prediction",
+                proj_4: "Review Sentiment Analysis",
+                proj_5: "Automated Data Cleaning",
+                proj_6: "Customer Churn Analysis",
+                proj_7: "Flight Ticket Web Scraping",
+                proj_8: "Movie Recommendation",
+                contact_title: "Let's Connect",
+                contact_desc: "If you have any questions or collaboration opportunities, feel free to contact me.",
+                contact_name: "Name",
+                contact_msg: "Message",
+                contact_msg_placeholder: "Write your message...",
+                contact_send: "Send Message",
+                footer: "&copy; 2026 Ismail Dwi. Created with a minimalist style."
+            }
+        };
+
+        // Global elements
+        const htmlElement = document.documentElement;
+
+        // Language Toggle Logic
+        const langToggleBtn = document.getElementById('lang-toggle');
+        
+        // Initial setup
+        let currentLang = localStorage.getItem('lang') || 'en';
+        htmlElement.setAttribute('lang', currentLang);
+        langToggleBtn.textContent = currentLang === 'id' ? 'EN' : 'ID';
+        applyTranslation(currentLang);
+
+        langToggleBtn.addEventListener('click', () => {
+            currentLang = currentLang === 'id' ? 'en' : 'id';
+            localStorage.setItem('lang', currentLang);
+            htmlElement.setAttribute('lang', currentLang);
+            langToggleBtn.textContent = currentLang === 'id' ? 'EN' : 'ID';
+            applyTranslation(currentLang);
+        });
+
+        function applyTranslation(lang) {
+            const dict = translations[lang];
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (dict[key]) {
+                    el.innerHTML = dict[key];
+                }
+            });
+            document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+                const key = el.getAttribute('data-i18n-placeholder');
+                if (dict[key]) {
+                    el.setAttribute('placeholder', dict[key]);
+                }
+            });
+        }
+
+        // Dark Mode Logic
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const moonIcon = document.getElementById('moon-icon');
+        const sunIcon = document.getElementById('sun-icon');
+
+        // Check local storage or system preference on load
+        const currentTheme = localStorage.getItem('theme');
+        if (currentTheme !== 'light') { // Default to dark mode
+            htmlElement.setAttribute('data-theme', 'dark');
+            moonIcon.style.display = 'none';
+            sunIcon.style.display = 'block';
+        }
+
+        themeToggleBtn.addEventListener('click', () => {
+            let theme = htmlElement.getAttribute('data-theme');
+            if (theme === 'dark') {
+                htmlElement.removeAttribute('data-theme');
+                localStorage.setItem('theme', 'light');
+                moonIcon.style.display = 'block';
+                sunIcon.style.display = 'none';
+            } else {
+                htmlElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+                moonIcon.style.display = 'none';
+                sunIcon.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+
+</html>
