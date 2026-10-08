@@ -1,5 +1,9 @@
 # Ismail Dwi - Minimalist Digital Portfolio
 
+# Name       : Ismail Dwi Muh. Anugerah
+# Student ID : 202410370110013
+# Course     : Web Programming 5D Class of 2026
+
 A clean, responsive, and minimalist digital portfolio built with a design language inspired by Notion's classic black-and-white environment. This portfolio is designed to showcase my journey and projects in **Python, Data Analysis, Data Visualisation**, and **Business Analytics**.
 
 ## 🚀 Features
